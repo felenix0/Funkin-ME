@@ -81,6 +81,8 @@ class ChartingState extends MusicBeatState
 	var leftIcon:HealthIcon;
 	var rightIcon:HealthIcon;
 
+	var bg:FlxSprite;
+
 	override function create()
 	{
 		curSection = lastSection;
