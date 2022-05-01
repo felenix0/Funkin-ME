@@ -96,7 +96,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollow, null, 0.06);
 
-		var engineVersionShit:FlxText = new FlxText(5, FlxG.height - 38, 0, "MercuryEngine' v" + Application.current.meta.get('versionEngine'), 12);
+		var engineVersionShit:FlxText = new FlxText(5, FlxG.height - 38, 0, "MercuryEngine' v0.1.0", 12);
 		engineVersionShit.scrollFactor.set();
 		engineVersionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(engineVersionShit);
