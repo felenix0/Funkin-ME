@@ -64,6 +64,8 @@ class Character extends FlxSprite
 
 				playAnim('danceRight');
 
+				barColor = 0xFF990e2a; // This is a hex color okay
+
 			case 'gf-christmas':
 				tex = Paths.getSparrowAtlas('christmas/gfChristmas');
 				frames = tex;
@@ -95,6 +97,8 @@ class Character extends FlxSprite
 
 				playAnim('danceRight');
 
+				barColor = 0xFF990e2a;
+
 			case 'gf-car':
 				tex = Paths.getSparrowAtlas('gfCar');
 				frames = tex;
@@ -107,6 +111,8 @@ class Character extends FlxSprite
 				addOffset('danceRight', 0);
 
 				playAnim('danceRight');
+
+				barColor = 0xFF990e2a;
 
 			case 'gf-pixel':
 				tex = Paths.getSparrowAtlas('weeb/gfPixel');
@@ -123,6 +129,8 @@ class Character extends FlxSprite
 				setGraphicSize(Std.int(width * PlayState.daPixelZoom));
 				updateHitbox();
 				antialiasing = false;
+
+				barColor = 0xFF990e2a;
 
 			case 'dad':
 				// DAD ANIMATION LOADING CODE
